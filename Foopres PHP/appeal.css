@@ -1,0 +1,141 @@
+*{
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+outline: 0 !important;
+scroll-behavior: smooth;
+}
+body{
+overflow-x:hidden;
+}
+header{
+padding-top: 60px;
+background: #312A2A;
+height: 116px;
+margin-bottom: 25px;
+}
+nav{
+max-width: 1820px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav__left{
+display: flex;
+/* justify-content:flex-start; */
+align-items: center;
+}
+.nav__left li a{
+padding: 20px;
+}
+.nav__right{
+display: flex;
+/* justify-content: flex-end; */
+align-items: center;
+}
+.nav__right li a{
+margin:20px;
+}
+header ul li a{
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.btn{
+padding: 10px;
+color: #FFFFFF;
+border: 1px solid #02735E;
+box-sizing: border-box;
+border-radius: 20px;
+width: 246px;
+height: 39px;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 24px;
+}
+.write__box{
+max-width: 1820px;
+margin: 0 auto;
+height: 80px;
+border: 1px solid #02735E;
+border-radius: 10px;
+box-sizing: border-box;
+}
+h1{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+padding: 25px;
+}
+h2{
+text-align: left;
+padding-top: 111px;
+}
+.appeal{
+display: flex;
+max-width: 1151px;
+margin: 0 auto;
+flex-direction: column;
+}
+.choice__box{
+cursor: pointer;
+margin: 0 auto;
+width: 1151px;
+height: 55px;
+border: 1px solid #02735E;
+text-align: left;
+padding-left: 17px;
+background: #FFFFFF;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #6B6B6B;
+}
+.dropdown-content {
+display: none;
+border: 1px solid #02735E;
+text-align: left;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: #6B6B6B;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.show {
+display: block;
+}
+.copyright{
+margin-top: 121px;
+width: 1920px;
+height: 274px;
+background: #D9D9D9;
+margin-bottom: 214px;
+}
+.img{
+padding: 37px 40px 0px 50px;
+}
+p{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+padding:33px 0px 0px 50px;
+}
